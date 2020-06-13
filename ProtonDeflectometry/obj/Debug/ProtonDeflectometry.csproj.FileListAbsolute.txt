@@ -1,0 +1,10 @@
+C:\Kristof\Programming\C#\ProtonDeflectometry\ProtonDeflectometry\bin\Debug\ProtonDeflectometry.exe.config
+C:\Kristof\Programming\C#\ProtonDeflectometry\ProtonDeflectometry\bin\Debug\ProtonDeflectometry.exe
+C:\Kristof\Programming\C#\ProtonDeflectometry\ProtonDeflectometry\bin\Debug\ProtonDeflectometry.pdb
+C:\Kristof\Programming\C#\ProtonDeflectometry\ProtonDeflectometry\obj\Debug\ProtonDeflectometry.csprojAssemblyReference.cache
+C:\Kristof\Programming\C#\ProtonDeflectometry\ProtonDeflectometry\obj\Debug\ProtonDeflectometry.Form1.resources
+C:\Kristof\Programming\C#\ProtonDeflectometry\ProtonDeflectometry\obj\Debug\ProtonDeflectometry.Properties.Resources.resources
+C:\Kristof\Programming\C#\ProtonDeflectometry\ProtonDeflectometry\obj\Debug\ProtonDeflectometry.csproj.GenerateResource.cache
+C:\Kristof\Programming\C#\ProtonDeflectometry\ProtonDeflectometry\obj\Debug\ProtonDeflectometry.csproj.CoreCompileInputs.cache
+C:\Kristof\Programming\C#\ProtonDeflectometry\ProtonDeflectometry\obj\Debug\ProtonDeflectometry.exe
+C:\Kristof\Programming\C#\ProtonDeflectometry\ProtonDeflectometry\obj\Debug\ProtonDeflectometry.pdb
