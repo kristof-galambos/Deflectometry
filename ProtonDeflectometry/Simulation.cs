@@ -20,13 +20,15 @@ namespace ProtonDeflectometry
         public double[,] points;
         public int cameraResolution = 100;
         public int[,] camera;
+        public string bfield;
 
-        public Simulation(int n, double Energy, double GD, double SD)
+        public Simulation(int n, double Energy, double GD, double SD, string b)
         {
             npart = n;
             E = Energy;
             gridDist = GD;
             screenDist = SD;
+            bfield = b;
             start();
         }
 
@@ -186,7 +188,20 @@ namespace ProtonDeflectometry
             By = 0;
             Bz = Bmag / x[0];
             double[] B3 = new double[3] { Bx, By, Bz };
-            return B2;
+            //no magnetic field
+            Bx = 0.0;
+            By = 0.0;
+            Bz = 0.0;
+            double[] B4 = new double[3] { Bx, By, Bz };
+            if (bfield == "uniform")
+            {
+                return B2;
+            }
+            else if (bfield == "zpinch")
+            {
+                return B3;
+            }
+            return B4;
         }
 
         void projectToScreen()

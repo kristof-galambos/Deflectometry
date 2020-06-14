@@ -38,7 +38,16 @@ namespace ProtonDeflectometry
             double E = Convert.ToDouble(Etextbox.Text);
             double GD = Convert.ToDouble(GDtextbox.Text);
             double SD = Convert.ToDouble(SDtextbox.Text);
-            sim = new Simulation(n, E, GD, SD);
+            string b = "nofield";
+            if (rbUniform.Checked)
+            {
+                b = "uniform";
+            }
+            else if (rbZpinch.Checked)
+            {
+                b = "zpinch";
+            }
+            sim = new Simulation(n, E, GD, SD, b);
             double[,] myPoints = sim.points;
             for (int i = 0; i < n; i++)
             {
