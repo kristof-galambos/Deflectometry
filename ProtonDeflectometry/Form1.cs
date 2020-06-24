@@ -49,6 +49,7 @@ namespace ProtonDeflectometry
             }
             sim = new Simulation(n, E, GD, SD, b);
             double[,] myPoints = sim.points;
+            ChartScreen.Series["Screen"].Points.Clear();
             for (int i = 0; i < n; i++)
             {
                 ChartScreen.Series["Screen"].Points.AddXY(myPoints[i, 0], myPoints[i, 1]);
