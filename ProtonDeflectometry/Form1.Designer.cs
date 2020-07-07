@@ -185,6 +185,7 @@
             this.rbUniform.Name = "rbUniform";
             this.rbUniform.Size = new System.Drawing.Size(174, 24);
             this.rbUniform.TabIndex = 13;
+            this.rbUniform.TabStop = true;
             this.rbUniform.Text = "Uniform in positive y";
             this.rbUniform.UseVisualStyleBackColor = true;
             // 
@@ -230,7 +231,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.ChartScreen);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Proton Deflectometry";
             ((System.ComponentModel.ISupportInitialize)(this.ChartScreen)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picture)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
